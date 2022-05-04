@@ -1,6 +1,6 @@
 <h1  align="center">
-   ![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
-</h1>
+   <img src="https://i.ibb.co/WgPMpts/image.png" alt="portfolio-img" border="0">
+ </h1>
   
 ## 📍 Index
 
