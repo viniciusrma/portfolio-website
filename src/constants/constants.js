@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: 'MERN Memories',
+    title: 'Node Farm - A NodeJs API',
     description: 'Lorem Ipsum',
-    image: '/images/1.png',
+    image: '/images/3.svg',
     tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0
   },
   {
-    title: 'E-Commerce',
+    title: 'A Piano player in your browser',
     description: 'Lorem Ipsum',
-    image: '/images/2.png',
+    image: '/images/2.svg',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1
   },
   {
-    title: 'Web App',
+    title: 'A fictional restaurat website',
     description: 'Lorem Ipsum',
-    image: '/images/3.jpg',
+    image: '/images/1.svg',
     tags: ['React', 'WebRTC'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2
   },
   {
-    title: 'Chatbot',
+    title: 'An Open Weather API consuming website',
     description: 'Lorem Ipsum',
-    image: '/images/4.jpg',
+    image: '/images/4.svg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
