@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Boxes = styled.div`
   width: 100%;
@@ -20,7 +20,7 @@ export const Boxes = styled.div`
     max-width: 500px;
     margin: 24px auto;
   }
-`;
+`
 
 export const Box = styled.div`
   background: #212d45;
@@ -44,7 +44,7 @@ export const Box = styled.div`
       grid-row: 2;
     }
   }
-`;
+`
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
@@ -62,7 +62,7 @@ export const BoxNum = styled.h5`
     font-size: 24px;
     line-height: 26px;
   }
-`;
+`
 
 export const BoxText = styled.p`
   font-style: normal;
@@ -81,7 +81,7 @@ export const BoxText = styled.p`
     font-size: 10px;
     line-height: 14px;
   }
-`;
+`
 
 export const Join = styled.div`
   display: flex;
@@ -102,7 +102,7 @@ export const Join = styled.div`
     align-items: center;
     padding-bottom: 32px;
   }
-`;
+`
 
 export const JoinText = styled.h5`
   display: flex;
@@ -121,7 +121,7 @@ export const JoinText = styled.h5`
     line-height: 24px;
     margin: 0 0 16px;
   }
-`;
+`
 
 export const IconContainer = styled.div`
   display: flex;
@@ -130,4 +130,4 @@ export const IconContainer = styled.div`
     width: 160px;
     justify-content: space-between;
   }
-`;
+`

@@ -1,7 +1,7 @@
-import Link from "next/link";
-import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
+import Link from 'next/link'
+import React from 'react'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
+import { DiCssdeck } from 'react-icons/di'
 
 import {
   Container,
@@ -9,15 +9,15 @@ import {
   Div2,
   Div3,
   NavLink,
-  SocialIcons,
-} from "./HeaderStyles";
+  SocialIcons
+} from './HeaderStyles'
 
 const Header = () => (
   <Container>
     <Div1>
       <Link className="anchor" href="/">
         <a>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+          <DiCssdeck size="3rem" /> <span>Viniciusrma</span>
         </a>
       </Link>
     </Div1>
@@ -37,6 +37,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="/blog">
+          <NavLink>Blog</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/viniciusrma">
@@ -47,6 +52,6 @@ const Header = () => (
       </SocialIcons>
     </Div3>
   </Container>
-);
+)
 
-export default Header;
+export default Header

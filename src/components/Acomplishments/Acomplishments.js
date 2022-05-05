@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react'
 
 import {
   Section,
   SectionDivider,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+  SectionTitle
+} from '../../styles/GlobalComponents'
+import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles'
 
 const data = [
-  { number: 20, text: "Projects" },
-  { number: 20, text: "Github Followers" },
-  { number: 20, text: "Total Commits" },
-];
+  { number: 20, text: 'Projects' },
+  { number: 20, text: 'Github Followers' },
+  { number: 20, text: 'Total Commits' }
+]
 
 const Acomplishments = () => (
   <Section>
@@ -26,6 +26,6 @@ const Acomplishments = () => (
     </Boxes>
     <SectionDivider />
   </Section>
-);
+)
 
-export default Acomplishments;
+export default Acomplishments

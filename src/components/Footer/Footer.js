@@ -1,7 +1,7 @@
-import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import React from 'react'
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
-import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIcons } from '../Header/HeaderStyles'
 import {
   CompanyContainer,
   FooterWrapper,
@@ -11,8 +11,8 @@ import {
   LinkTitle,
   Slogan,
   SocialContainer,
-  SocialIconsContainer,
-} from "./FooterStyles";
+  SocialIconsContainer
+} from './FooterStyles'
 
 const Footer = () => {
   return (
@@ -43,7 +43,7 @@ const Footer = () => {
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

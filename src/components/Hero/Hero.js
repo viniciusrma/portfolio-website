@@ -1,11 +1,8 @@
-import React from "react";
+import React from 'react'
 
-import {
-  Section,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { Section, SectionTitle } from '../../styles/GlobalComponents'
+import Button from '../../styles/GlobalComponents/Button'
+import { LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
   <>
@@ -19,6 +16,6 @@ const Hero = (props) => (
       </LeftSection>
     </Section>
   </>
-);
+)
 
-export default Hero;
+export default Hero

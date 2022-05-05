@@ -1,18 +1,18 @@
-import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import React from 'react'
+import { DiFirebase, DiReact, DiZend } from 'react-icons/di'
 import {
   Section,
   SectionDivider,
   SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
+  SectionTitle
+} from '../../styles/GlobalComponents'
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
-  ListTitle,
-} from "./TechnologiesStyles";
+  ListTitle
+} from './TechnologiesStyles'
 
 const Technologies = () => (
   <Section id="tech">
@@ -65,6 +65,6 @@ const Technologies = () => (
     </List>
     <SectionDivider colorAlt />
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies
