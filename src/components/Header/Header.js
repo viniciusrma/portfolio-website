@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { DiCssdeck } from 'react-icons/di'
+import Logo from '../../../public/images/logo.svg'
 
 import {
   Container,
@@ -16,9 +17,9 @@ const Header = () => (
   <Container>
     <Div1>
       <Link className="anchor" href="/">
-        <a>
-          <DiCssdeck size="3rem" /> <span>Viniciusrma</span>
-        </a>
+        <NavLink>
+          <img src={'/images/logo.svg'} width="180" className="logo" />
+        </NavLink>
       </Link>
     </Div1>
     <Div2>

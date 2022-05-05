@@ -1,5 +1,7 @@
 import { IoIosArrowDropdown } from 'react-icons/io'
 import styled from 'styled-components'
+import Logo from '../../../public/images/logo.svg'
+
 
 export const Container = styled.div`
   display: grid;
@@ -18,10 +20,13 @@ export const Container = styled.div`
   }
 `
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
+
+  .logo {
+    margin-top: 10px;
+  }
 
   .anchor {
     display: flex;
