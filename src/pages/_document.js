@@ -36,6 +36,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
+        <title>viniciusrma.dev</title>
         <body>
           <Main />
           <NextScript />
