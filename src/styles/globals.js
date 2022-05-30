@@ -20,6 +20,27 @@ const GlobalStyles = createGlobalStyle`
     cursor: default;
 
   }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: ${(props) => props.theme.colors.background2};
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: ${(props) => props.theme.colors.button};
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: ${(props) => props.theme.colors.accent1};
+  }
+
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${(props) => props.theme.fonts.title};
   }
