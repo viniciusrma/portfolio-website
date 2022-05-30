@@ -23,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
   /* width */
   ::-webkit-scrollbar {
-    width: 16px;
+    width: 12px;
   }
 
   /* Track */
@@ -33,12 +33,12 @@ const GlobalStyles = createGlobalStyle`
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: ${(props) => props.theme.colors.button};
+    background: #8F35EA;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: ${(props) => props.theme.colors.accent1};
+    background: #4566D5;
   }
 
   h1,h2,h3,h4,h5,h6,button {
