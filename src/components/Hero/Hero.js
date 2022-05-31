@@ -18,7 +18,7 @@ const Hero = (props) => (
         </SectionTitle>
 
         <a
-          href="/assets/ResumeViniciusAlves.pdf"
+          href="/assets/ResumeViniciusMorais.pdf"
           download="Resume Vinícius Morais"
           target="_blank"
         >
