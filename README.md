@@ -33,7 +33,8 @@ The project was developed using the following technologies:
 
 Setup:
 
-- run `npm i && npm start`
+- run `npm i`
+- run `npm run dev`
 
 <h4  align="center">
 Made with ❤ by <a  href="https://www.linkedin.com/in/viniciusrma/"  target="_blank">Vinícius Morais</a>
