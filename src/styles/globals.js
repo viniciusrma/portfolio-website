@@ -10,7 +10,7 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
   html {
-    font-size: 62.5%;P
+    font-size: 62.5%;
   }
   body {
     font-family: ${(props) => props.theme.fonts.main};
